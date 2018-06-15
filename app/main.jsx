@@ -9,7 +9,7 @@ function createClass(obj) {
 
 const Hello = createClass({
   render() {
-    return (<div>Hello, classes!</div>);
+    return (<div>Hello, Preact!</div>);
   }
 });
 

@@ -1,4 +1,5 @@
 import { h, render } from "preact";
+import "tachyons";
 
 const node = document.querySelector("main");
 

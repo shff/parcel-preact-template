@@ -16,14 +16,14 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.9.3",
+    "parcel-bundler": "^1.9.4",
     "stylus": "^0.54.5"
   },
   "optionalDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
-    "babel-jest": "^23.2.0",
-    "eslint": "^5.0.1",
+    "babel-jest": "^23.4.0",
+    "eslint": "^5.1.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.0.0",
@@ -33,7 +33,7 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
     "html-looks-like": "^1.0.3",
-    "jest": "^23.2.0",
+    "jest": "^23.4.0",
     "preact-render-to-string": "^3.7.0"
   },
   "babel": {

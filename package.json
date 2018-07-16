@@ -7,7 +7,7 @@
     "deploy": "yarn rebuild && echo '/* /index.html 200' >| dist/_redirects && netlify -p dist",
     "clean": "rimraf dist .cache",
     "lint": "eslint app/*.js* app/**/*.js*",
-    "test": "jest"
+    "test": "jasmine"
   },
   "dependencies": {
     "preact": "^8.2.9",
@@ -26,7 +26,6 @@
   "optionalDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
-    "babel-jest": "^23.4.0",
     "eslint": "^5.1.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -38,7 +37,7 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
     "html-looks-like": "^1.0.3",
-    "jest": "^23.4.1",
+    "jasmine": "^3.1.0",
     "preact-render-to-string": "^3.7.0"
   },
   "babel": {
@@ -60,14 +59,6 @@
     "not ie 11",
     "not op_mini all"
   ],
-  "jest": {
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
-    },
-    "modulePathIgnorePatterns": [
-      "/node_modules/"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "eslint:recommended",

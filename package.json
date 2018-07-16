@@ -31,6 +31,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.0.0",
+    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-html": "^4.0.5",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-no-loops": "^0.3.0",
@@ -72,12 +73,14 @@
       "eslint:recommended",
       "airbnb-base",
       "plugin:react/recommended",
-      "plugin:promise/recommended"
+      "plugin:promise/recommended",
+      "plugin:fp/recommended"
     ],
     "plugins": [
       "react",
       "promise",
-      "no-loops"
+      "no-loops",
+      "fp"
     ],
     "parserOptions": {
       "parser": "babel-eslint",

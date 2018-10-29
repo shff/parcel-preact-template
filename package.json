@@ -10,43 +10,43 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "preact": "^8.2.9",
-    "tachyons": "^4.10.0",
-    "unfetch": "^3.0.0"
+    "preact": "^8.3.1",
+    "tachyons": "^4.11.1",
+    "unfetch": "^4.0.1"
   },
   "devDependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.9.7",
-    "parcel-plugin-inliner": "^1.0.0",
-    "parcel-plugin-purifycss": "^1.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-inliner": "^1.0.2",
+    "parcel-plugin-purifycss": "^1.0.2",
     "stylus": "^0.54.5"
   },
   "optionalDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.1.0",
-    "eslint-config-airbnb-base": "^13.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.0.0",
+    "eslint-loader": "^2.1.1",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-html": "^4.0.5",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-react": "^7.10.0",
-    "jasmine": "^3.1.0",
-    "preact-render-to-string": "^3.7.0"
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jasmine": "^3.3.0",
+    "preact-render-to-string": "^4.1.0"
   },
   "babel": {
     "presets": [
-      "env"
+      "@babel/env"
     ],
     "plugins": [
-      "transform-runtime",
+      "@babel/plugin-transform-runtime",
       [
-        "transform-react-jsx",
+        "@babel/plugin-transform-react-jsx",
         {
           "pragma": "h"
         }

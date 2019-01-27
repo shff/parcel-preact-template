@@ -5,7 +5,7 @@
     "build": "parcel build app/index.html --public-url .",
     "rebuild": "yarn clean && yarn build --no-cache",
     "clean": "rimraf dist .cache",
-    "lint": "eslint app/*.js* app/**/*.js*",
+    "lint": "eslint app/*.ts* app/**/*.ts*",
     "test": "jasmine"
   },
   "dependencies": {
@@ -19,9 +19,13 @@
     "parcel": "^1.11.0",
     "parcel-plugin-compress": "^1.0.7",
     "parcel-plugin-inliner": "^1.0.6",
-    "postcss-remove-unused-css": "^1.0.4"
+    "postcss-remove-unused-css": "^1.0.4",
+    "typescript": "^3.2.4"
   },
   "optionalDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.1.0",
+    "@typescript-eslint/parser": "^1.1.0",
+    "eslint-plugin-compat": "^2.6.3",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.1",
     "eslint-config-prettier": "^4.1.0",
@@ -81,6 +85,7 @@
       "plugin:react/recommended",
       "plugin:promise/recommended",
       "plugin:compat/recommended",
+      "plugin:@typescript-eslint/recommended",
       "plugin:fp/recommended"
     ],
     "plugins": [
@@ -89,10 +94,11 @@
       "promise",
       "no-loops",
       "compat",
+      "@typescript-eslint",
       "fp"
     ],
     "parserOptions": {
-      "parser": "babel-eslint",
+      "parser": "@typescript-eslint/parser",
       "ecmaVersion": 2017,
       "sourceType": "module",
       "ecmaFeatures": {

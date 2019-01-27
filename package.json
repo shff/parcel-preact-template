@@ -106,9 +106,6 @@
       "quotes": [
         "error",
         "double"
-      ],
-      "import/no-unresolved": [
-        "off"
       ]
     }
   }

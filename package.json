@@ -13,24 +13,24 @@
     "preact": "^8.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.3.3",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
-    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-compat": "^2.7.0",
     "parcel-bundler": "^1.10.3",
-    "parcel-plugin-inliner": "^1.0.2",
+    "parcel-plugin-inliner": "^1.0.3",
     "parcel-plugin-purifycss": "^1.0.2"
   },
   "optionalDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
+    "eslint": "^5.14.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.1",
+    "eslint-loader": "^2.1.2",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-html": "^4.0.6",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
@@ -52,7 +52,7 @@
     ]
   },
   "browserslist": [
-    ">0.25%",
+    ">0.6%",
     "not ie 11",
     "not op_mini all"
   ],

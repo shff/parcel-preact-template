@@ -17,8 +17,8 @@
     "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "parcel": "^1.11.0",
-    "parcel-plugin-inliner": "^1.0.4",
-    "postcss-remove-unused-css": "^1.0.3"
+    "parcel-plugin-inliner": "^1.0.5",
+    "postcss-remove-unused-css": "^1.0.4"
   },
   "optionalDependencies": {
     "babel-eslint": "^10.0.1",
@@ -60,7 +60,11 @@
       "autoprefixer": {},
       "postcss-remove-unused-css": {
         "path": "./app",
-        "exts": [".js", ".jsx", ".html"]
+        "exts": [
+          ".js",
+          ".jsx",
+          ".html"
+        ]
       }
     }
   },

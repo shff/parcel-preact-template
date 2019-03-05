@@ -6,6 +6,7 @@
     "rebuild": "yarn clean && yarn build --no-cache",
     "clean": "rimraf dist .cache",
     "lint": "eslint app/*.js* app/**/*.js*",
+    "lint:watch": "esw app/*.js* app/**/*.js* -w --color --clear",
     "test": "jasmine"
   },
   "dependencies": {
@@ -35,6 +36,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
     "jasmine": "^3.3.0",
     "preact-render-to-string": "^4.1.0",
     "prettier": "^1.16.4"

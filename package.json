@@ -10,7 +10,7 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "preact": "^8.3.1"
+    "preact": "^10.0.0-alpha.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

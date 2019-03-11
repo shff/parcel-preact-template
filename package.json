@@ -4,20 +4,20 @@
     "serve": "parcel app/index.html --open",
     "build": "parcel build app/index.html --public-url .",
     "rebuild": "yarn clean && yarn build --no-cache",
-    "clean": "rimraf dist .cache",
+    "clean": "rm -rf dist .cache",
     "lint": "eslint app/*.js* app/**/*.js*",
     "lint:watch": "esw app/*.js* app/**/*.js* -w --color --clear",
     "test": "jasmine"
   },
   "dependencies": {
-    "preact": "^10.0.0-alpha.0"
+    "preact": "^10.0.0-alpha.1"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
-    "parcel": "^1.11.0",
+    "parcel": "^1.12.0",
     "parcel-plugin-compress": "^1.0.7",
     "parcel-plugin-inliner": "^1.0.6",
     "postcss-remove-unused-css": "^1.0.4"
@@ -36,9 +36,9 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-watch": "^4.0.2",
+    "eslint-watch": "^5.0.1",
     "jasmine": "^3.3.0",
-    "preact-render-to-string": "^4.1.0",
+    "preact-render-to-string": "^5.0.0",
     "prettier": "^1.16.4"
   },
   "babel": {

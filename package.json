@@ -10,36 +10,36 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "preact": "^8.4.2"
+    "preact": "^8.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.6.2",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "parcel": "^1.12.3",
     "parcel-plugin-compress": "^1.0.10",
     "parcel-plugin-inliner": "^1.0.10",
     "postcss-remove-unused-css": "^1.0.4"
   },
   "optionalDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-compat": "^3.1.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-compat": "^3.3.0",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-watch": "^5.1.2",
-    "jasmine": "^3.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-watch": "^6.0.1",
+    "jasmine": "^3.5.0",
     "preact-render-to-string": "^4.1.0",
-    "prettier": "^1.17.1"
+    "prettier": "^1.18.2"
   },
   "babel": {
     "presets": [

@@ -7,7 +7,9 @@
     "clean": "rm -rf dist .cache",
     "lint": "eslint app/*.js* app/**/*.js*",
     "lint:watch": "esw app/*.js* app/**/*.js* -w --color --clear",
-    "test": "jasmine"
+    "prettify": "prettier --write ./**/*.js",
+    "test": "jasmine",
+    "e2e": "cypress run -C false --config video=false,integrationFolder=app,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
   },
   "dependencies": {
     "preact": "^10.2.1"
@@ -17,6 +19,7 @@
     "@babel/plugin-transform-react-jsx": "^7.8.0",
     "@babel/plugin-transform-runtime": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
+    "normalize-html-whitespace": "^1.0.0",
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^1.1.0",
     "parcel-plugin-inliner": "^1.0.10",
@@ -24,6 +27,7 @@
   },
   "optionalDependencies": {
     "babel-eslint": "^10.0.3",
+    "cypress": "^4.1.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -37,7 +41,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-watch": "^6.0.1",
+    "husky": "^4.2.3",
     "jasmine": "^3.5.0",
+    "lint-staged": "^10.0.8",
     "preact-render-to-string": "^5.1.3",
     "prettier": "^1.19.1"
   },
@@ -74,6 +80,10 @@
     }
   },
   "eslintConfig": {
+    "ignorePatterns": [
+      "**/*.spec.js",
+      "node_modules/"
+    ],
     "env": {
       "browser": true
     },
@@ -82,8 +92,7 @@
       "plugin:prettier/recommended",
       "plugin:react/recommended",
       "plugin:promise/recommended",
-      "plugin:compat/recommended",
-      "plugin:fp/recommended"
+      "plugin:compat/recommended"
     ],
     "plugins": [
       "prettier",
@@ -124,5 +133,16 @@
       ],
       "react/prop-types": "off"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,css,json,md,vue}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

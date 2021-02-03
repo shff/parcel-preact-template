@@ -18,7 +18,7 @@
     "@babel/core": "^7.12.10",
     "@babel/plugin-transform-react-jsx": "^7.12.12",
     "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-env": "^7.12.13",
     "normalize-html-whitespace": "^1.0.0",
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^2.0.2",

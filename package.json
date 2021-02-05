@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/plugin-transform-react-jsx": "^7.12.13",
-    "@babel/plugin-transform-runtime": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
     "@babel/preset-env": "^7.12.13",
     "normalize-html-whitespace": "^1.0.0",
     "parcel": "^1.12.4",

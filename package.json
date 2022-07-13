@@ -44,7 +44,7 @@
     "husky": "^8.0.1",
     "jasmine": "^4.2.1",
     "lint-staged": "^13.0.3",
-    "preact-render-to-string": "^5.2.0",
+    "preact-render-to-string": "^5.2.1",
     "prettier": "^2.7.1"
   },
   "babel": {

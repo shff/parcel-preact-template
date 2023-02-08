@@ -45,7 +45,7 @@
     "jasmine": "^4.5.0",
     "lint-staged": "^13.1.1",
     "preact-render-to-string": "^5.2.6",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.4"
   },
   "babel": {
     "presets": [

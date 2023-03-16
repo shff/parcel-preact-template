@@ -42,7 +42,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-watch": "^7.0.0",
     "husky": "^8.0.3",
-    "jasmine": "^4.5.0",
+    "jasmine": "^4.6.0",
     "lint-staged": "^13.2.0",
     "preact-render-to-string": "^5.2.6",
     "prettier": "^2.8.4"

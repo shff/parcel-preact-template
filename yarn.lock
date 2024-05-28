@@ -7315,12 +7315,10 @@ posthtml@^0.12.0:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
 
-preact-render-to-string@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.2.tgz#e6ebea3e554554f4de90ecde7144ba7385c702f0"
-  integrity sha512-zxmF4knV5XDk5ABm26Tvmi3Xoayedt9RmV/EuVYEm2/WVjFEYqf4w1zV7QC2bxFuSO8pu+T07KbNKeRbhMkYrw==
-  dependencies:
-    pretty-format "^3.8.0"
+preact-render-to-string@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.3.tgz#ee7b20728ece579c3a093eb4022597bb004946dd"
+  integrity sha512-TWRSivNYMB3DMcFvrhwdGFkfSvPhUkd5r1q5q+1oQA21wnfEaxJe2X5U1BqLsuOA/v79sFRkg+qSeDkMHOqdvQ==
 
 preact@^10.22.0:
   version "10.22.0"
@@ -7353,11 +7351,6 @@ pretty-bytes@^5.6.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
   integrity sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==
-
-pretty-format@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
-  integrity sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=
 
 private@^0.1.8:
   version "0.1.8"

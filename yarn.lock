@@ -2002,17 +2002,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.0.0, browserslist@^4.1.0, browserslist@^4.16.3, browserslist@^4.23.1:
-  version "4.23.2"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.23.2.tgz#244fe803641f1c19c28c48c4b6ec9736eb3d32ed"
-  integrity sha512-qkqSyistMYdxAcw+CzbZwlBy8AGmS/eEWs+sEV5TnLRGDOL+C5M2EnH6tlZyg0YoAxGJAFKh61En9BR941GnHA==
-  dependencies:
-    caniuse-lite "^1.0.30001640"
-    electron-to-chromium "^1.4.820"
-    node-releases "^2.0.14"
-    update-browserslist-db "^1.1.0"
-
-browserslist@^4.23.3:
+browserslist@^4.0.0, browserslist@^4.1.0, browserslist@^4.16.3, browserslist@^4.23.1, browserslist@^4.23.3:
   version "4.23.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.23.3.tgz#debb029d3c93ebc97ffbc8d9cbb03403e227c800"
   integrity sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==
@@ -2156,12 +2146,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001639, caniuse-lite@^1.0.30001640:
-  version "1.0.30001642"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001642.tgz#6aa6610eb24067c246d30c57f055a9d0a7f8d05f"
-  integrity sha512-3XQ0DoRgLijXJErLSl+bLnJ+Et4KqV1PY6JJBGAFlsNsz31zeAIncyeZfLCabHK/jtSh+671RM9YMldxjUPZtA==
-
-caniuse-lite@^1.0.30001646:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001639, caniuse-lite@^1.0.30001646:
   version "1.0.30001651"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001651.tgz#52de59529e8b02b1aedcaaf5c05d9e23c0c28138"
   integrity sha512-9Cf+Xv1jJNe1xPZLGuUXLNkE1BoDkqRqYyFJ9TDYSqhduqA4hu4oR9HluGoWYQC/aj8WHjsGVV+bwkh0+tegRg==
@@ -3197,11 +3182,6 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.4.820:
-  version "1.4.827"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.827.tgz#76068ed1c71dd3963e1befc8ae815004b2da6a02"
-  integrity sha512-VY+J0e4SFcNfQy19MEoMdaIcZLmDCprqvBtkii1WTCTQHpRvf5N8+3kTYCgL/PcntvwQvmMJWTuDPsq+IlhWKQ==
-
 electron-to-chromium@^1.5.4:
   version "1.5.13"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.13.tgz#1abf0410c5344b2b829b7247e031f02810d442e6"
@@ -3709,10 +3689,10 @@ eslint-module-utils@^2.9.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-compat@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-6.0.0.tgz#196a2e19949e34f645e6294fa174704e6a5e0133"
-  integrity sha512-oIynkQYqGnW9ibHl1cGLER8XkUlKaOI8bS80Qz7CjKROvbQm4oN8fWb5l2cG9GJJ4h5eFIHPqkB9ZJuMzwpPFQ==
+eslint-plugin-compat@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-6.0.1.tgz#2852f41893802870a530b2ac087499b4556882b6"
+  integrity sha512-0MeIEuoy8kWkOhW38kK8hU4vkb6l/VvyjpuYDymYOXmUY9NvTgyErF16lYuX+HPS5hkmym7lfA+XpYZiWYWmYA==
   dependencies:
     "@mdn/browser-compat-data" "^5.5.35"
     ast-metadata-inferer "^0.8.0"
@@ -6290,11 +6270,6 @@ node-libs-browser@^2.0.0:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
-
-node-releases@^2.0.14:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.14.tgz#2ffb053bceb8b2be8495ece1ab6ce600c4461b0b"
-  integrity sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==
 
 node-releases@^2.0.18:
   version "2.0.18"
